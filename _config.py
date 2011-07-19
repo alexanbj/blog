@@ -9,6 +9,8 @@
 # configuration is on your system run 'blogofile info'
 #
 ######################################################################
+import os
+import shutil
 
 ######################################################################
 # Basic Settings
@@ -46,3 +48,16 @@ blog.description = "Programming and apps"
 
 ## blog_timezone -- the timezone that you normally write your blog posts from
 blog.timezone = "Europe/Oslo"
+
+def pre_build():
+    if not os.path.isdir("_tmp"):
+        os.mkdir("_tmp")
+    else:
+        shutil.rmtree("_tmp")
+        os.mkdir("_tmp")
+    if os.path.isdir(os.path.join("_site",".git")):
+        shutil.move(os.path.join("_site",".git"),"_tmp")
+
+def build_finally():
+    if os.path.isdir(os.path.join("_tmp",".git")):
+        shutil.move(os.path.join("_tmp",".git"),"_site")
