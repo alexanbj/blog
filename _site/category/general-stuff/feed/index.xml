@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     >
+  <channel>
+    <title>Alexander Bjerkan</title>
+    <link>http://alexanbj.github.com</link>
+    <description>Programming and apps</description>
+    <pubDate>Tue, 19 Jul 2011 16:28:29 GMT</pubDate>
+    <generator>Blogofile</generator>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <item>
+      <title>Hello World!</title>
+      <link>http://alexanbj.github.com/2011/07/19/hello-world!</link>
+      <pubDate>Tue, 19 Jul 2011 17:46:00 CEST</pubDate>
+      <category><![CDATA[General Stuff]]></category>
+      <guid isPermaLink="true">http://alexanbj.github.com/2011/07/19/hello-world!</guid>
+      <description>Hello World!</description>
+      <content:encoded><![CDATA[<p>Here we go again. Inspired by <a href="http://romnes.github.com/">Magnus Romnes</a> I decided to
+setup my own blog that will probably never be updated. The cool thing is that
+this blog is driven by <a href="http://www.blogofile.com/">Blogofile</a>, a static website
+compiler written in Python. Why is that cool, yoy ask?</p>
+<p>It is cool because static HTML is safe, there's nothing executable and no
+databases like when using Wordpress, where security holes are discovered all
+the time.</p>
+<p>It is cool because it allows me to write all my blogposts in the bestest editor
+known to man, the allmighty Vim.<br />
+</p>
+<p>It is cool as by hosting this site on Github there's version control included,
+and publishing this post is a simple as a git push command. </p>
+<p>Finally, it is cool because it even plays very nice with source code listings, with the help
+of <a href="http://pygments.org/">Pygments</a>:</p>
+<table class="pygments_fruitytable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4</pre></div></td><td class="code"><div class="pygments_fruity"><pre><span class="kn">import</span> <span class="nn">this</span>
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">&quot;main&quot;</span><span class="p">:</span>
+    <span class="k">print</span> <span class="s">&quot;Hello, World!&quot;</span>
+</pre></div>
+</td></tr></table>
+
+<p>That's it for now. I'll work some more on this blog later, probably by adding a
+comments system through Disqus.</p>]]></content:encoded>
+    </item>
+  </channel>
+</rss>
