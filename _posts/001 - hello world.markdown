@@ -8,7 +8,7 @@ tags: ''
 Here we go again. Inspired by [Magnus Romnes](http://romnes.github.com/) I decided to
 setup my own blog that will probably never be updated. The cool thing is that
 this blog is driven by [Blogofile](http://www.blogofile.com/), a static website
-compiler written in Python. Why is that cool, yoy ask?
+compiler written in Python. Why is that cool, you ask?
 
 It is cool because static HTML is safe, there's nothing executable and no
 databases like when using Wordpress, where security holes are discovered all
